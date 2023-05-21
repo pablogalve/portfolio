@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pablo Galve Millán - Portfolio</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DevCard Bootstrap 4 Template">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+    <!-- FontAwesome JS -->
+    <script defer src="../assets/fontawesome/js/all.js"></script>
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="../assets/css/theme-1.css">
+
+    <!-- Script to include navbar and footer -->
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+    <!-- Dates Style CSS -->
+    <link id="dates_style" rel="stylesheet" href="assets/css/dates_style.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108280184-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-108280184-2');
+    </script>
+</head>
+
+<!-- Style for labels -->
+<style>
+    .label {
+        color: white;
+        padding: 4px;
+        font-family: Arial;
+        border-radius: 5px;
+    }
+
+    .primary {
+        background-color: blue;
+    }
+
+    /* Dark Blue */
+    .success {
+        background-color: #4CAF50;
+    }
+
+    /* Green */
+    .info {
+        background-color: #2196F3;
+    }
+
+    /* Blue */
+    .warning {
+        background-color: #ff9800;
+    }
+
+    /* Orange */
+    .danger {
+        background-color: #f44336;
+    }
+
+    /* Red */
+    .other {
+        background-color: #e7e7e7;
+        color: black;
+    }
+
+    /* Gray */
+</style>
+
+<body>
+    <!-- Left Navbar -->
+    <header class="header text-center">
+        <div class="force-overflow">
+            <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Pablo Galve Millán</a></h1>
+
+            <nav class="navbar navbar-expand-lg navbar-dark">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                    aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="navigation" class="collapse navbar-collapse flex-column">
+                    <div class="profile-section pt-3 pt-lg-0">
+                        <img class="profile-image mb-3 rounded-circle mx-auto" src="/assets/images/pablogalve.PNG"
+                            alt="image">
+
+                        <div class="bio mb-3">Hi, my name is Pablo and I'm a developer. Welcome to
+                            my personal website!</div>
+                        <!--//bio-->
+                        <ul class="social-list list-inline py-2 mx-auto">
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/pablogalve/"
+                                    target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+                            <li class="list-inline-item"><a href="https://github.com/pablogalve" target="_blank"><i
+                                        class="fab fa-github fa-fw"></i></a></li>
+                        </ul>
+                        <!--//social-list-->
+                        <hr>
+                    </div>
+                    <!--//profile-section-->
+
+                    <ul class="navbar-nav flex-column text-left">
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">
+                                <i class="fas fa-user fa-fw mr-2"></i>About Me</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="portfolio.html">
+                                <i class="fas fa-laptop-code fa-fw mr-2"></i>Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="resume.html">
+                                <i class="fas fa-file-alt fa-fw mr-2"></i>Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+                                <i class="fas fa-envelope-open-text fa-fw mr-2"></i>Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="my-2">
+                        <a class="btn btn-primary" href="contact.html"><i class="fas fa-paper-plane mr-2"></i>Hire
+                            Me</a>
+                    </div>
+
+                    <div class="dark-mode-toggle text-center w-100">
+                        <hr class="mb-4">
+                        <h4 class="toggle-name mb-3 "><i class="fas fa-adjust mr-1"></i>Dark Mode</h4>
+
+                        <input class="toggle" id="darkmode" type="checkbox">
+                        <label class="toggle-btn mx-auto mb-0" for="darkmode"></label>
+
+                    </div>
+                    <!--//dark-mode-toggle-->
+
+                    <!-- Dark Mode -->
+                    <script src="assets/plugins/js-cookie.min.js"></script>
+                    <script src="assets/js/dark-mode.js"></script>
+                </div>
+            </nav>
+        </div>
+        <!--//force-overflow-->
+    </header>
+
+    <div class="main-wrapper">
+        <section class="cta-section theme-bg-light py-5">
+            <div class="container text-center single-col-max-width">
+                <h2 class="heading">Portfolio</h2>
+                <div class="intro">
+                    <p>Welcome to my online portfolio. Take a look around my last projects!</p>
+
+                </div>
+                <a class="btn btn-primary" href="contact.html" target="_blank"><i
+                        class="fas fa-paper-plane mr-2"></i>Hire Me</a>
+
+
+            </div>
+            <!--//container-->
+        </section>
+        <section class="projects-list px-3 py-5 p-md-5">
+            <div class="container">
+                <div class="text-center">
+                    <ul id="filters" class="filters mb-5 mx-auto pl-0">
+                        <li class="type active mb-3 mb-lg-0" data-filter="*">All</li>
+                        <li class="type  mb-3 mb-lg-0" data-filter=".game">Games</li>
+                        <li class="type  mb-3 mb-lg-0" data-filter=".engine">Engines</li>
+                        <li class="type  mb-3 mb-lg-0" data-filter=".website">Websites</li>
+                        <li class="type  mb-3 mb-lg-0" data-filter=".app">Mobile Apps</li>
+                    </ul>
+                    <!--//filters-->
+                </div>
+
+                <div class="project-cards row isotope">
+                    <div class="isotope-item col-md-12 mb-5 game website">
+                        <div class="card project-card">
+                            <div class="row no-gutters">
+                                <div class="col-lg-4 card-img-holder">
+                                    <img src="assets/images/TheMandalorian/intro_video_reduced_fps.webp"
+                                        class="card-img" alt="image">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+                                        <h5>
+                                            <span class="card-title"><a href="project/ashes_of_the_empire.html"
+                                                    class="theme-link">The Mandalorian: Ashes of the Empire</a></span>
+                                            <span id="dates">&nbsp; February 2021 - June 2021</span>
+                                        </h5>
+                                        <p><small>
+                                                <span class="label danger">c++</span>
+                                                <span class="label info">c#</span>
+                                                <span class="label primary">HTML/css</span>
+                                        </p></small>
+
+                                        <p class="card-text">A Star Wars based game built with a custom engine by a team
+                                            of 32 students.</p>
+                                        <p class="card-text"><small class="text-muted">University Project</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask">
+                                <div class="link-mask-text">
+                                    <a class="btn btn-secondary" href="project/ashes_of_the_empire.html"
+                                        target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Case Study
+                                    </a>
+                                </div>
+                            </div>
+                            <!--//link-mask-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                    <!--//col-->
+
+
+                    <div class="isotope-item col-md-12 mb-5 app">
+                        <div class="card project-card">
+                            <div class="row no-gutters">
+                                <div class="col-lg-4 card-img-holder">
+                                    <img src="assets/images/SpaceMapper/space_mapper_cover.png" class="card-img"
+                                        alt="image">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+                                        <h5>
+                                            <span class="card-title"><a href="project/space_mapper.html"
+                                                    class="theme-link">Space Mapper (Flutter/Dart App)</a></span>
+                                            <span id="dates">&nbsp; October 2021 - Currently</span>
+                                        </h5>
+                                        <p><small>
+                                                <span class="label danger">Flutter</span>
+                                                <span class="label info">Dart</span>
+                                                <span class="label primary">DevOps</span>
+                                        </p></small>
+
+                                        <p class="card-text">Mobile application built with flutter and dart during my
+                                            engineering internship in CSIC - Ministry of Science.</p>
+                                        <p class="card-text"><small class="text-muted">Professional Project</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask">
+                                <div class="link-mask-text">
+                                    <a class="btn btn-secondary" href="project/space_mapper.html" target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Case Study
+                                    </a>
+                                </div>
+                            </div>
+                            <!--//link-mask-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                    <!--//col-->
+
+
+                    <div class="isotope-item col-md-12 mb-5 engine">
+                        <div class="card project-card">
+                            <div class="row no-gutters">
+                                <div class="col-lg-4 card-img-holder">
+                                    <img src="assets/images/TurboX_Engine/smoke_webp.webp" class="card-img" alt="image">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+                                        <h5>
+                                            <span class="card-title"><a href="project/turbox-engine.html"
+                                                    class="theme-link">3D Game Engine</a></span>
+                                            <span id="dates">&nbsp; October 2020 - January 2021</span>
+                                        </h5>
+                                        <p><small>
+                                                <span class="label danger">c++</span>
+                                                <span class="label info">OpenGL</span>
+                                                <span class="label success">SDL</span>
+                                        </p></small>
+
+                                        <p class="card-text">A 3D game engine built from the ground up with a built-in
+                                            particle system.</p>
+                                        <p class="card-text"><small class="text-muted">University Project</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask">
+                                <div class="link-mask-text">
+                                    <a class="btn btn-secondary" href="project/turbox-engine.html" target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Case Study
+                                    </a>
+                                    <a class="btn btn-secondary" href="https://github.com/pablogalve/TurboX-Engine"
+                                        target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Github
+                                    </a>
+                                </div>
+                            </div>
+                            <!--//link-mask-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                    <!--//col-->
+
+
+                    <div class="isotope-item col-md-12 mb-5 app">
+                        <div class="card project-card">
+                            <div class="row no-gutters">
+                                <div class="col-lg-4 card-img-holder">
+                                    <img src="assets/images/Clothing_Store/clothing_store_cover_webp.webp"
+                                        class="card-img" alt="image">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+                                        <h5>
+                                            <span class="card-title"><a href="project/clothing-store.html"
+                                                    class="theme-link">Mobile - Clothing Store App</a></span>
+                                            <span id="dates">&nbsp; January 2021</span>
+                                        </h5>
+                                        <p><small>
+                                                <span class="label danger">Flutter</span>
+                                                <span class="label info">Dart</span>
+                                        </p></small>
+
+                                        <p class="card-text">A mobile app for a clothing store.</p>
+                                        <p class="card-text"><small class="text-muted">University Project</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask">
+                                <div class="link-mask-text">
+                                    <a class="btn btn-secondary" href="project/clothing-store.html" target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Case Study
+                                    </a>
+                                </div>
+                            </div>
+                            <!--//link-mask-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                    <!--//col-->
+
+
+                    <div class="isotope-item col-md-12 mb-5 game">
+                        <div class="card project-card">
+                            <div class="row no-gutters">
+                                <div class="col-lg-4 card-img-holder">
+                                    <img src="assets/images/Augmented_Reality/augmented_reality_cover.webp"
+                                        class="card-img" alt="image">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+                                        <h5>
+                                            <span class="card-title"><a
+                                                    href="https://github.com/pablogalve/Augmented-Reality-Project"
+                                                    class="theme-link">Augmented Reality - Space Survival</a></span>
+                                            <span id="dates">&nbsp;1 week in May 2021</span>
+                                        </h5>
+                                        <p><small>
+                                                <span class="label danger">c#</span>
+                                                <span class="label info">Unity</span>
+                                                <span class="label success">Vuforia</span>
+                                        </p></small>
+
+                                        <p class="card-text">An augmented reality game built in a week using c#, Unity
+                                            and Vuforia.</p>
+                                        <p class="card-text"><small class="text-muted">University Project</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask">
+                                <div class="link-mask-text">
+                                    <a class="btn btn-secondary"
+                                        href="https://github.com/pablogalve/Augmented-Reality-Project" target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Github
+                                    </a>
+                                </div>
+                            </div>
+                            <!--//link-mask-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                    <!--//col-->
+
+
+                    <div class="isotope-item col-md-12 mb-5 engine">
+                        <div class="card project-card">
+                            <div class="row no-gutters">
+                                <div class="col-lg-4 card-img-holder">
+                                    <img src="assets/images/Caramel_Capital/trading_view_logged_in.PNG" class="card-img"
+                                        alt="image">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+                                        <h5>
+                                            <span class="card-title"><a href="project/caramel_capital.html"
+                                                    class="theme-link">Trading Engine</a></span>
+                                            <span id="dates">&nbsp; Sep 2018 - July 2020</span>
+                                        </h5>
+                                        <p><small>
+                                                <span class="label primary">PHP</span>
+                                                <span class="label info">MySQL</span>
+                                                <span class="label primary">HTML/css</span>
+                                                <span class="label warning">javascript</span>
+                                        </p></small>
+
+                                        <p class="card-text">An online marketplace to buy & sell stocks in real-time.
+                                        </p>
+                                        <p class="card-text"><small class="text-muted">Solo Project</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask">
+                                <div class="link-mask-text">
+                                    <a class="btn btn-secondary" href="project/caramel_capital.html" target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Case Study
+                                    </a>
+                                    <a class="btn btn-secondary"
+                                        href="https://www.pablogalve.com/caramel_capital/invest/equity/market-pro"
+                                        target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Live Engine
+                                    </a>
+                                </div>
+                            </div>
+                            <!--//link-mask-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                    <!--//col-->
+                    <div class="isotope-item col-md-12 mb-5 game">
+                        <div class="card project-card">
+                            <div class="row no-gutters">
+                                <div class="col-lg-4 card-img-holder">
+                                    <img src="assets/images/Fallout_Strategy/fallout_strategy_cover_gif.gif"
+                                        class="card-img" alt="image">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+                                        <h5>
+                                            <span class="card-title"><a href="project/fallout_strategy.html"
+                                                    class="theme-link"> Fallout Strategy</a></span>
+                                            <span id="dates">&nbsp; Feb 2020 - June 2020</span>
+                                        </h5>
+                                        <p><small>
+                                                <span class="label danger">c++</span>
+                                                <span class="label success">SDL</span>
+                                                <span class="label primary">HTML/css</span>
+                                        </p></small>
+
+                                        <p class="card-text">Real-time strategy game in which you have to survive and
+                                            defeat the enemy factions to win.</p>
+                                        <p class="card-text"><small class="text-muted">University Project</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask">
+                                <div class="link-mask-text">
+                                    <a class="btn btn-secondary" href="project/fallout_strategy.html" target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Case Study
+                                    </a>
+                                    <a class="btn btn-secondary"
+                                        href="https://kalima-entertainment.github.io/Fallout_Strategy/" target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Project Website
+                                    </a>
+                                </div>
+                            </div>
+                            <!--//link-mask-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                    <!--//col-->
+
+                    <div class="isotope-item col-md-12 mb-5 game">
+                        <div class="card project-card">
+                            <div class="row no-gutters">
+                                <div class="col-lg-4 card-img-holder">
+                                    <img src="assets/images/Samurai_Shodown/samurai_shodown_cover_webp.webp"
+                                        class="card-img" alt="image">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+                                        <h5>
+                                            <span class="card-title"><a href="project/samurai_shodown.html"
+                                                    class="theme-link">Samurai Shodown</a></span>
+                                            <span id="dates">&nbsp; Feb 2019 - June 2019</span>
+                                        </h5>
+                                        <p><small>
+                                                <span class="label danger">c++</span>
+                                                <span class="label success">SDL</span>
+                                        </p></small>
+
+                                        <p class="card-text">A classic 1vs1 fighting game.<br>
+                                            Compatible with both PC and Xbox controllers.
+                                        </p>
+                                        <p class="card-text"><small class="text-muted">University Project</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask">
+                                <div class="link-mask-text">
+                                    <a class="btn btn-secondary" href="project/samurai_shodown.html" target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Case Study
+                                    </a>
+                                    <a class="btn btn-secondary" href="https://marcpages2020.github.io/Samurai-Shodown/"
+                                        target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Project Website
+                                    </a>
+                                </div>
+                            </div>
+                            <!--//link-mask-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                    <!--//col-->
+
+                    <div class="isotope-item col-md-12 mb-5 game">
+                        <div class="card project-card">
+                            <div class="row no-gutters">
+                                <div class="col-lg-4 card-img-holder">
+                                    <img src="assets/images/Back_In_Time/back_in_time_cover_gif.gif" class="card-img"
+                                        alt="image">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+                                        <h5>
+                                            <span class="card-title"><a href="project/back_in_time.html"
+                                                    class="theme-link">Back In Time</a></span>
+                                            <span id="dates">&nbsp; Sep 2019 - Dec 2019</span>
+                                        </h5>
+                                        <p><small>
+                                                <span class="label danger">c++</span>
+                                                <span class="label success">SDL</span>
+                                        </p></small>
+
+                                        <p class="card-text">Platformer game in 2D in which you have the ability to go 3
+                                            seconds back in time.</p>
+                                        <p class="card-text"><small class="text-muted">University Project</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask">
+                                <div class="link-mask-text">
+                                    <a class="btn btn-secondary" href="project/back_in_time.html" target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Case Study
+                                    </a>
+                                    <a class="btn btn-secondary" href="https://bernat-pablo.github.io/Back-In-Time/"
+                                        target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Project Website
+                                    </a>
+                                </div>
+                            </div>
+                            <!--//link-mask-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                    <!--//col-->
+
+                    <div class="isotope-item col-md-12 mb-5 website">
+                        <div class="card project-card">
+                            <div class="row no-gutters">
+                                <div class="col-lg-4 card-img-holder">
+                                    <img src="assets/images/Moon_Funding/mf_cover.PNG" class="card-img" alt="image">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+                                        <h5>
+                                            <span class="card-title"><a href="project/moon_funding.html"
+                                                    class="theme-link">Moon Funding</a></span>
+                                            <span id="dates">&nbsp; Aug 2017 - May 2018</span>
+                                        </h5>
+                                        <p><small>
+                                                <span class="label info">wordpress</span>
+                                                <span class="label success">solidity</span>
+                                        </p></small>
+
+                                        <p class="card-text">A blockchain based company.</p>
+                                        <p class="card-text"><small class="text-muted">Company: Moon Funding</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask">
+                                <div class="link-mask-text">
+                                    <a class="btn btn-secondary" href="project/moon_funding.html" target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Case Study
+                                    </a>
+                                    <a class="btn btn-secondary" href="moon_funding" target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Live Website
+                                    </a>
+                                </div>
+                            </div>
+                            <!--//link-mask-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                    <!--//col-->
+                </div>
+                <!--//row-->
+
+            </div>
+        </section>
+
+        <!-- Footer included from another file -->
+        <p w3-include-html="footer.html"></p>
+
+    </div>
+    <!--//main-wrapper-->
+
+    <!-- Javascript -->
+    <script src="assets/plugins/jquery-3.4.1.min.js"></script>
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+    <!--Page Specific JS -->
+    <script type="text/javascript" src="assets/plugins/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/isotope.pkgd.min.js"></script>
+
+    <script type="text/javascript" src="assets/js/isotope-custom.js"></script>
+
+    <!-- Dark Mode -->
+    <script src="assets/plugins/js-cookie.min.js"></script>
+    <script src="assets/js/dark-mode.js"></script>
+
+    <script>
+        w3.includeHTML();
+    </script>
+
+</body>
+
+</html>

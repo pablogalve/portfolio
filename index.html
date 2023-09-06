@@ -2,595 +2,449 @@
 <html lang="en">
 
 <head>
-  <title>DevCard - Bootstrap 4 vCard &amp; Portfolio Template For Developers</title>
+    <title>Pablo Galve Millán - Portfolio</title>
 
-  <!-- Meta -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="DevCard Bootstrap 4 Template">
-  <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
-  <link rel="shortcut icon" href="favicon.ico">
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DevCard Bootstrap 4 Template">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+    <link rel="shortcut icon" href="favicon.ico">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 
-  <!-- FontAwesome JS -->
-  <script defer src="assets/fontawesome/js/all.js"></script>
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
 
-  <!-- Plugin CSS -->
-  <link rel="stylesheet" href="assets/plugins/tiny-slider/tiny-slider.css">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
 
-  <!-- Theme CSS -->
-  <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
+    <!-- Script to include navbar and footer -->
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108280184-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-108280184-2');
+    </script>
 </head>
 
 <body>
-  <header class="header text-center">
-    <div class="force-overflow">
-      <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Simon Doe</a></h1>
+    <!-- Left Navbar -->
+    <header class="header text-center">
+        <div class="force-overflow">
+            <h1 class="blog-name pt-lg-4 mb-0"><a href="index.php">Pablo Galve Millán</a></h1>
 
-      <nav class="navbar navbar-expand-lg navbar-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
-          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                    aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <div id="navigation" class="collapse navbar-collapse flex-column">
-          <div class="profile-section pt-3 pt-lg-0">
-            <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/profile.png" alt="image">
+                <div id="navigation" class="collapse navbar-collapse flex-column">
+                    <div class="profile-section pt-3 pt-lg-0">
+                        <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/pablogalve.PNG"
+                            alt="image">
 
-            <div class="bio mb-3">Hi, my name is Simon Doe and I'm a senior software engineer. Welcome to my personal
-              website!</div><!--//bio-->
-            <ul class="social-list list-inline py-2 mx-auto">
-              <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-              <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-              <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
-              <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
-              <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
-            </ul><!--//social-list-->
-            <hr>
-          </div><!--//profile-section-->
+                        <div class="bio mb-3">Hi, my name is Pablo and I'm a developer. Welcome to
+                            my personal website!</div>
+                        <!--//bio-->
+                        <ul class="social-list list-inline py-2 mx-auto">
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/pablogalve/"
+                                    target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+                            <li class="list-inline-item"><a href="https://github.com/pablogalve" target="_blank"><i
+                                        class="fab fa-github fa-fw"></i></a></li>
+                        </ul>
+                        <!--//social-list-->
+                        <hr>
+                    </div>
+                    <!--//profile-section-->
 
-          <ul class="navbar-nav flex-column text-left">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html"><i class="fas fa-user fa-fw mr-2"></i>About Me<span
-                  class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html"><i class="fas fa-laptop-code fa-fw mr-2"></i>Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html"><i class="fas fa-briefcase fa-fw mr-2"></i>Services &amp;
-                Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="resume.html"><i class="fas fa-file-alt fa-fw mr-2"></i>Resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blog-home.html"><i class="fas fa-blog fa-fw mr-2"></i>Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html"><i class="fas fa-envelope-open-text fa-fw mr-2"></i>Contact</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-cogs fa-fw mr-2"></i>More Pages
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="project.html">Project Page</a>
-                <a class="dropdown-item" href="blog-home.html">Blog Home 1</a>
-                <a class="dropdown-item" href="blog-home-alt.html">Blog Home 2</a>
-                <a class="dropdown-item" href="blog-post.html">Blog Post</a>
-              </div>
-            </li>
-          </ul>
-
-          <div class="my-2">
-            <a class="btn btn-primary" href="contact.html" target="_blank"><i class="fas fa-paper-plane mr-2"></i>Hire
-              Me</a>
-          </div>
-
-
-          <div class="dark-mode-toggle text-center w-100">
-            <hr class="mb-4">
-            <h4 class="toggle-name mb-3 "><i class="fas fa-adjust mr-1"></i>Dark Mode</h4>
-
-            <input class="toggle" id="darkmode" type="checkbox">
-            <label class="toggle-btn mx-auto mb-0" for="darkmode"></label>
-
-          </div><!--//dark-mode-toggle-->
-
+                    <ul class="navbar-nav flex-column text-left">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">
+                                <i class="fas fa-laptop-code fa-fw mr-2"></i>Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+                                <i class="fas fa-envelope-open-text fa-fw mr-2"></i>Contact</a>
+                        </li>
+                    </ul>
+                    <script src="assets/plugins/js-cookie.min.js"></script>
+                    <script src="assets/js/dark-mode.js"></script>
+                </div>
+            </nav>
         </div>
-      </nav>
-    </div><!--//force-overflow-->
-  </header>
+        <!--//force-overflow-->
+    </header>
 
-  <div class="main-wrapper">
+    <div class="main-wrapper">
+        <section class="cta-section theme-bg-light py-5">
+            <div class="container text-center single-col-max-width">
+                <h2 class="heading">Portfolio</h2>
+                <div class="intro">
+                    <p>Welcome to my online portfolio. Take a look around my open source projects!</p>
 
-    <section class="about-me-section p-3 p-lg-5 theme-bg-light">
-      <div class="container">
-        <div class="profile-teaser media flex-column flex-lg-row">
-
-          <div class="media-body">
-            <h2 class="name font-weight-bold mb-1">Simon Doe</h2>
-            <div class="tagline mb-3">Senior Software Engineer</div>
-            <div class="bio mb-4">I'm a software engineer specialised in frontend and backend development for complex
-              scalable web apps. I write about software development on <a class="link-on-bg" href="blog-home.html">my
-                blog</a>. Want to know how I may help your project? Check out my project <a class="link-on-bg"
-                href="projects.html">portfolio</a> and <a class="link-on-bg" href="resume.html">online resume</a>.
-            </div><!--//bio-->
-            <div class="mb-4">
-              <a class="btn btn-primary mr-2 mb-3" href="portfolio.html"><i
-                  class="fas fa-arrow-alt-circle-right mr-2"></i><span class="d-none d-md-inline">View</span>
-                Portfolio</a>
-              <a class="btn btn-secondary mb-3" href="resume.html"><i class="fas fa-file-alt mr-2"></i><span
-                  class="d-none d-md-inline">View</span> Resume</a>
+                </div>
             </div>
-          </div><!--//media-body-->
-          <img class="profile-image mb-3 mb-lg-0 ml-lg-5 mr-md-0" src="assets/images/profile-lg.jpg" alt="">
-        </div>
-      </div>
-    </section><!--//about-me-section-->
+        </section>
 
-    <section class="overview-section p-3 p-lg-5">
-      <div class="container">
-        <h2 class="section-title font-weight-bold mb-3">What I do</h2>
-        <div class="section-intro mb-5">I have more than 10 years' experience building software for clients all over the
-          world. Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more
-          about my experience? Check out my <a href="resume.html">online resume</a> and <a href="portfolio.html">project
-            portfolio</a>.</div>
-        <div class="row">
-          <div class="item col-6 col-lg-3">
-            <div class="item-inner">
-              <div class="item-icon"><i class="fab fa-js-square"></i></div>
-              <h3 class="item-title">Vanilla JavaScript</h3>
-              <div class="item-desc">List skills/technologies here. You can change the icon above to any of the 1500+ <a
-                  class="theme-link" href="https://fontawesome.com/" target="_blank">FontAwesome 5 free icons</a>
-                available. Aenean commodo ligula eget dolor.</div>
-            </div><!--//item-inner-->
-          </div><!--//item-->
-          <div class="item col-6 col-lg-3">
-            <div class="item-inner">
-              <div class="item-icon"><i class="fab fa-angular mr-2"></i><i class="fab fa-react mr-2"></i><i
-                  class="fab fa-vuejs"></i></div>
-              <h3 class="item-title">Angular, React &amp; Vue</h3>
-              <div class="item-desc">List skills/technologies here. You can change the icon above to any of the 1500+ <a
-                  class="theme-link" href="https://fontawesome.com/" target="_blank">FontAwesome 5 free icons</a>
-                available. Aenean commodo ligula eget dolor. </div>
-            </div><!--//item-inner-->
-          </div><!--//item-->
+        <section class="projects-list px-3 py-5 p-md-5">
+            <div class="container">
+                <div class="text-center">
+                    <ul id="filters" class="filters mb-5 mx-auto pl-0">
+                        <li class="type active mb-3 mb-lg-0" data-filter="*">All</li>
+                        <li class="type  mb-3 mb-lg-0" data-filter=".game">Games</li>
+                        <li class="type  mb-3 mb-lg-0" data-filter=".engine">Engines</li>
+                        <li class="type  mb-3 mb-lg-0" data-filter=".website">Websites</li>
+                        <li class="type  mb-3 mb-lg-0" data-filter=".app">Mobile Apps</li>
+                    </ul>
+                </div>
 
-          <div class="item col-6 col-lg-3">
-            <div class="item-inner">
-              <div class="item-icon"><i class="fab fa-node-js"></i></div>
-              <h3 class="item-title">Node.js</h3>
-              <div class="item-desc">List skills/technologies here. You can change the icon above to any of the 1500+ <a
-                  class="theme-link" href="https://fontawesome.com/" target="_blank">FontAwesome 5 free icons</a>
-                available. Aenean commodo ligula eget dolor. </div>
-            </div><!--//item-inner-->
-          </div><!--//item-->
+                <div class="project-cards row isotope">
+                    <div class="isotope-item col-md-12 mb-5 game website">
+                        <div class="card project-card">
+                            <div class="row no-gutters">
+                                <div class="col-lg-4 card-img-holder">
+                                    <img src="assets/images/TheMandalorian/intro_video_reduced_fps.webp"
+                                        class="card-img" alt="image">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+                                        <h5>
+                                            <span class="card-title"><a href="project/ashes_of_the_empire.html"
+                                                    class="theme-link">The Mandalorian: Ashes of the Empire</a></span>
+                                            <span id="dates">&nbsp; February 2021 - June 2021</span>
+                                        </h5>
+                                        <p><small>
+                                                <span class="label danger">c++</span>
+                                                <span class="label info">c#</span>
+                                                <span class="label primary">HTML/css</span>
+                                        </p></small>
 
-          <div class="item col-6 col-lg-3">
-            <div class="item-inner">
-              <div class="item-icon"><i class="fab fa-python"></i></div>
-              <h3 class="item-title">Python &amp; Django</h3>
-              <div class="item-desc">List skills/technologies here. You can change the icon above to any of the 1500+ <a
-                  class="theme-link" href="https://fontawesome.com/" target="_blank">FontAwesome 5 free icons</a>
-                available. Aenean commodo ligula eget dolor. </div>
-            </div><!--//item-inner-->
-          </div><!--//item-->
-          <div class="item col-6 col-lg-3">
-            <div class="item-inner">
-              <div class="item-icon"><i class="fab fa-php"></i></div>
-              <h3 class="item-title">PHP</h3>
-              <div class="item-desc">List skills/technologies here. You can change the icon above to any of the 1500+ <a
-                  class="theme-link" href="https://fontawesome.com/" target="_blank">FontAwesome 5 free icons</a>
-                available. Aenean commodo ligula eget dolor. </div>
-            </div><!--//item-inner-->
-          </div><!--//item-->
-          <div class="item col-6 col-lg-3">
-            <div class="item-inner">
-              <div class="item-icon"><i class="fab fa-npm mr-2"></i><i class="fab fa-gulp mr-2"></i><i
-                  class="fab fa-grunt"></i></div>
-              <h3 class="item-title">npm, Gulp &amp; Grunt</h3>
-              <div class="item-desc">List skills/technologies here. You can change the icon above to any of the 1500+ <a
-                  class="theme-link" href="https://fontawesome.com/" target="_blank">FontAwesome 5 free icons</a>
-                available. Aenean commodo ligula eget dolor. </div>
-            </div><!--//item-inner-->
-          </div><!--//item-->
-          <div class="item col-6 col-lg-3">
-            <div class="item-inner">
-              <div class="item-icon"><i class="fab fa-html5 mr-2"></i><i class="fab fa-css3-alt"></i></div>
-              <h3 class="item-title">HTML &amp; CSS</h3>
-              <div class="item-desc">List skills/technologies here. You can change the icon above to any of the 1500+ <a
-                  class="theme-link" href="https://fontawesome.com/" target="_blank">FontAwesome 5 free icons</a>
-                available. Aenean commodo ligula eget dolor. </div>
-            </div><!--//item-inner-->
-          </div><!--//item-->
-          <div class="item col-6 col-lg-3">
-            <div class="item-inner">
-              <div class="item-icon"><i class="fab fa-sass mr-2"></i><i class="fab fa-less"></i></div>
-              <h3 class="item-title">Sass &amp; LESS</h3>
-              <div class="item-desc">List skills/technologies here. You can change the icon above to any of the 1500+ <a
-                  class="theme-link" href="https://fontawesome.com/" target="_blank">FontAwesome 5 free icons</a>
-                available. Aenean commodo ligula eget dolor. </div>
-            </div><!--//item-inner-->
-          </div><!--//item-->
-        </div><!--//row-->
-        <div class="text-center py-3"><a href="services.html" class="btn btn-primary"><i
-              class="fas fa-arrow-alt-circle-right mr-2"></i>Services &amp; Pricing
+                                        <p class="card-text">A Star Wars based game built with a custom engine by a team
+                                            of 32 students.</p>
+                                        <p class="card-text"><small class="text-muted">University Project</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask">
+                                <div class="link-mask-text">
+                                    <a class="btn btn-secondary" href="project/ashes_of_the_empire.html"
+                                        target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Case Study
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-          </a></div>
+                    <div class="isotope-item col-md-12 mb-5 engine">
+                        <div class="card project-card">
+                            <div class="row no-gutters">
+                                <div class="col-lg-4 card-img-holder">
+                                    <img src="assets/images/TurboX_Engine/smoke_webp.webp" class="card-img" alt="image">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+                                        <h5>
+                                            <span class="card-title"><a href="project/turbox-engine.html"
+                                                    class="theme-link">3D Game Engine</a></span>
+                                            <span id="dates">&nbsp; October 2020 - January 2021</span>
+                                        </h5>
+                                        <p><small>
+                                                <span class="label danger">c++</span>
+                                                <span class="label info">OpenGL</span>
+                                                <span class="label success">SDL</span>
+                                        </p></small>
 
-      </div><!--//container-->
-    </section>
+                                        <p class="card-text">A 3D game engine built from the ground up with a built-in
+                                            particle system.</p>
+                                        <p class="card-text"><small class="text-muted">University Project</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask">
+                                <div class="link-mask-text">
+                                    <a class="btn btn-secondary" href="project/turbox-engine.html" target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Case Study
+                                    </a>
+                                    <a class="btn btn-secondary" href="https://github.com/pablogalve/TurboX-Engine"
+                                        target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Github
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-    <div class="container">
-      <hr>
+
+                    <div class="isotope-item col-md-12 mb-5 app">
+                        <div class="card project-card">
+                            <div class="row no-gutters">
+                                <div class="col-lg-4 card-img-holder">
+                                    <img src="assets/images/Clothing_Store/clothing_store_cover_webp.webp"
+                                        class="card-img" alt="image">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+                                        <h5>
+                                            <span class="card-title"><a href="project/clothing-store.html"
+                                                    class="theme-link">Mobile - Clothing Store App</a></span>
+                                            <span id="dates">&nbsp; January 2021</span>
+                                        </h5>
+                                        <p><small>
+                                                <span class="label danger">Flutter</span>
+                                                <span class="label info">Dart</span>
+                                        </p></small>
+
+                                        <p class="card-text">A mobile app for a clothing store.</p>
+                                        <p class="card-text"><small class="text-muted">University Project</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask">
+                                <div class="link-mask-text">
+                                    <a class="btn btn-secondary" href="project/clothing-store.html" target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Case Study
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="isotope-item col-md-12 mb-5 engine">
+                        <div class="card project-card">
+                            <div class="row no-gutters">
+                                <div class="col-lg-4 card-img-holder">
+                                    <img src="assets/images/Caramel_Capital/trading_view_logged_in.PNG" class="card-img"
+                                        alt="image">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+                                        <h5>
+                                            <span class="card-title"><a href="project/caramel_capital.html"
+                                                    class="theme-link">Trading Engine</a></span>
+                                            <span id="dates">&nbsp; Sep 2018 - July 2020</span>
+                                        </h5>
+                                        <p><small>
+                                                <span class="label primary">PHP</span>
+                                                <span class="label info">MySQL</span>
+                                                <span class="label primary">HTML/css</span>
+                                                <span class="label warning">javascript</span>
+                                        </p></small>
+
+                                        <p class="card-text">An online marketplace to buy & sell stocks in real-time.
+                                        </p>
+                                        <p class="card-text"><small class="text-muted">Solo Project</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask">
+                                <div class="link-mask-text">
+                                    <a class="btn btn-secondary" href="project/caramel_capital.html" target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Case Study
+                                    </a>
+                                    <a class="btn btn-secondary"
+                                        href="https://www.pablogalve.com/caramel_capital/invest/equity/market-pro"
+                                        target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Live Engine
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="isotope-item col-md-12 mb-5 game">
+                        <div class="card project-card">
+                            <div class="row no-gutters">
+                                <div class="col-lg-4 card-img-holder">
+                                    <img src="assets/images/Fallout_Strategy/fallout_strategy_cover_gif.gif"
+                                        class="card-img" alt="image">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+                                        <h5>
+                                            <span class="card-title"><a href="project/fallout_strategy.html"
+                                                    class="theme-link"> Fallout Strategy</a></span>
+                                            <span id="dates">&nbsp; Feb 2020 - June 2020</span>
+                                        </h5>
+                                        <p><small>
+                                                <span class="label danger">c++</span>
+                                                <span class="label success">SDL</span>
+                                                <span class="label primary">HTML/css</span>
+                                        </p></small>
+
+                                        <p class="card-text">Real-time strategy game in which you have to survive and
+                                            defeat the enemy factions to win.</p>
+                                        <p class="card-text"><small class="text-muted">University Project</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask">
+                                <div class="link-mask-text">
+                                    <a class="btn btn-secondary" href="project/fallout_strategy.html" target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Case Study
+                                    </a>
+                                    <a class="btn btn-secondary"
+                                        href="https://kalima-entertainment.github.io/Fallout_Strategy/" target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Project Website
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="isotope-item col-md-12 mb-5 game">
+                        <div class="card project-card">
+                            <div class="row no-gutters">
+                                <div class="col-lg-4 card-img-holder">
+                                    <img src="assets/images/Samurai_Shodown/samurai_shodown_cover_webp.webp"
+                                        class="card-img" alt="image">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+                                        <h5>
+                                            <span class="card-title"><a href="project/samurai_shodown.html"
+                                                    class="theme-link">Samurai Shodown</a></span>
+                                            <span id="dates">&nbsp; Feb 2019 - June 2019</span>
+                                        </h5>
+                                        <p><small>
+                                                <span class="label danger">c++</span>
+                                                <span class="label success">SDL</span>
+                                        </p></small>
+
+                                        <p class="card-text">A classic 1vs1 fighting game.<br>
+                                            Compatible with both PC and Xbox controllers.
+                                        </p>
+                                        <p class="card-text"><small class="text-muted">University Project</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask">
+                                <div class="link-mask-text">
+                                    <a class="btn btn-secondary" href="project/samurai_shodown.html" target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Case Study
+                                    </a>
+                                    <a class="btn btn-secondary" href="https://marcpages2020.github.io/Samurai-Shodown/"
+                                        target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Project Website
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="isotope-item col-md-12 mb-5 game">
+                        <div class="card project-card">
+                            <div class="row no-gutters">
+                                <div class="col-lg-4 card-img-holder">
+                                    <img src="assets/images/Back_In_Time/back_in_time_cover_gif.gif" class="card-img"
+                                        alt="image">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+                                        <h5>
+                                            <span class="card-title"><a href="project/back_in_time.html"
+                                                    class="theme-link">Back In Time</a></span>
+                                            <span id="dates">&nbsp; Sep 2019 - Dec 2019</span>
+                                        </h5>
+                                        <p><small>
+                                                <span class="label danger">c++</span>
+                                                <span class="label success">SDL</span>
+                                        </p></small>
+
+                                        <p class="card-text">Platformer game in 2D in which you have the ability to go 3
+                                            seconds back in time.</p>
+                                        <p class="card-text"><small class="text-muted">University Project</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask">
+                                <div class="link-mask-text">
+                                    <a class="btn btn-secondary" href="project/back_in_time.html" target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Case Study
+                                    </a>
+                                    <a class="btn btn-secondary" href="https://bernat-pablo.github.io/Back-In-Time/"
+                                        target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Project Website
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="isotope-item col-md-12 mb-5 website">
+                        <div class="card project-card">
+                            <div class="row no-gutters">
+                                <div class="col-lg-4 card-img-holder">
+                                    <img src="assets/images/Moon_Funding/mf_cover.PNG" class="card-img" alt="image">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+                                        <h5>
+                                            <span class="card-title"><a href="project/moon_funding.html"
+                                                    class="theme-link">Moon Funding</a></span>
+                                            <span id="dates">&nbsp; Aug 2017 - May 2018</span>
+                                        </h5>
+                                        <p><small>
+                                                <span class="label info">wordpress</span>
+                                                <span class="label success">solidity</span>
+                                        </p></small>
+
+                                        <p class="card-text">A blockchain based company.</p>
+                                        <p class="card-text"><small class="text-muted">Company: Moon Funding</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask">
+                                <div class="link-mask-text">
+                                    <a class="btn btn-secondary" href="project/moon_funding.html" target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Case Study
+                                    </a>
+                                    <a class="btn btn-secondary" href="moon_funding" target="_blank">
+                                        <i class="fas fa-eye mr-2"></i>View Live Website
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer text-center py-4">
+            <small class="copyright">Copyright &copy; <a href="https://pablogalve.com/" target="_blank">Pablo Galve
+                    Millán</a></small>
+        </footer>
+
     </div>
+    <!--//main-wrapper-->
 
-    <section class="testimonials-section p-3 p-lg-5">
-      <div class="container">
-        <h2 class="section-title font-weight-bold mb-5">Testimonials</h2>
+    <!-- Javascript -->
+    <script src="assets/plugins/jquery-3.4.1.min.js"></script>
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 
-        <div class="testiomonial-carousel-container">
-          <div class="testimonial-carousel  tiny-slider">
-            <div class="item">
-              <div class="item-inner">
-                <div class="quote-holder">
-                  <blockquote class="quote-content">
-                    Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
-                  </blockquote>
-                  <i class="fas fa-quote-left"></i>
-                </div><!--//quote-holder-->
-                <div class="source-holder">
-                  <div class="source-profile">
-                    <img src="assets/images/clients/profile-1.png" alt="image" />
-                  </div>
-                  <div class="meta">
-                    <div class="name">Brandon James</div>
-                    <div class="info">Project Manager, Google</div>
-                  </div>
-                </div>
-              </div><!--//item-inner-->
-            </div><!--//item-->
+    <!--Page Specific JS -->
+    <script type="text/javascript" src="assets/plugins/jquery-validation/jquery.validate.min.js"></script>
 
-            <div class="item">
-              <div class="item-inner">
-                <div class="quote-holder">
-                  <blockquote class="quote-content">
-                    Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
-                  </blockquote>
-                  <i class="fas fa-quote-left"></i>
-                </div><!--//quote-holder-->
-                <div class="source-holder">
-                  <div class="source-profile">
-                    <img src="assets/images/clients/profile-2.png" alt="image" />
-                  </div>
-                  <div class="meta">
-                    <div class="name">Kate Sanders</div>
-                    <div class="info">Project Manager, Uber</div>
-                  </div>
-                </div>
-              </div><!--//item-inner-->
-            </div><!--//item-->
+    <!-- Custom JS -->
+    <script type="text/javascript" src="assets/js/form.js"></script>
 
-            <div class="item">
-              <div class="item-inner">
-                <div class="quote-holder">
-                  <blockquote class="quote-content">
-                    Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
-                  </blockquote>
-                  <i class="fas fa-quote-left"></i>
-                </div><!--//quote-holder-->
-                <div class="source-holder">
-                  <div class="source-profile">
-                    <img src="assets/images/clients/profile-3.png" alt="image" />
-                  </div>
-                  <div class="meta">
-                    <div class="name">James Lee</div>
-                    <div class="info">Product Manager, Amazon</div>
-                  </div>
-                </div>
-              </div><!--//item-inner-->
-            </div><!--//item-->
+    <script src="assets/plugins/js-cookie.min.js"></script>
+    <script src="assets/js/dark-mode.js"></script>
 
-            <div class="item">
-              <div class="item-inner">
-                <div class="quote-holder">
-                  <blockquote class="quote-content">
-                    Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
-                  </blockquote>
-                  <i class="fas fa-quote-left"></i>
-                </div><!--//quote-holder-->
-                <div class="source-holder">
-                  <div class="source-profile">
-                    <img src="assets/images/clients/profile-4.png" alt="image" />
-                  </div>
-                  <div class="meta">
-                    <div class="name">James Lee</div>
-                    <div class="info">Product Manager, Amazon</div>
-                  </div>
-                </div>
-              </div><!--//item-inner-->
-            </div><!--//item-->
-
-            <div class="item">
-              <div class="item-inner">
-                <div class="quote-holder">
-                  <blockquote class="quote-content">
-                    Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
-                  </blockquote>
-                  <i class="fas fa-quote-left"></i>
-                </div><!--//quote-holder-->
-                <div class="source-holder">
-                  <div class="source-profile">
-                    <img src="assets/images/clients/profile-5.png" alt="image" />
-                  </div>
-                  <div class="meta">
-                    <div class="name">Olivia White</div>
-                    <div class="info">Product Manager, Dropbox</div>
-                  </div>
-                </div>
-              </div><!--//item-inner-->
-            </div><!--//item-->
-
-            <div class="item">
-              <div class="item-inner">
-                <div class="quote-holder">
-                  <blockquote class="quote-content">
-                    Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
-                  </blockquote>
-                  <i class="fas fa-quote-left"></i>
-                </div><!--//quote-holder-->
-                <div class="source-holder">
-                  <div class="source-profile">
-                    <img src="assets/images/clients/profile-6.png" alt="image" />
-                  </div>
-                  <div class="meta">
-                    <div class="name">Samuel Reyes</div>
-                    <div class="info">CTO, StartupHub</div>
-                  </div>
-                </div>
-              </div><!--//item-inner-->
-            </div><!--//item-->
-          </div><!--//testimonial-carousel-->
-        </div><!--//testimonial-carousel-container-->
-      </div><!--//container-->
-    </section><!--//testimonials-section-->
-
-    <div class="container">
-      <hr>
-    </div>
-
-    <section class="featured-section p-3 p-lg-5">
-      <div class="container">
-        <h2 class="section-title font-weight-bold mb-5">Featured Projects</h2>
-        <div class="row">
-          <div class="col-md-6 mb-5">
-            <div class="card project-card">
-              <div class="row no-gutters">
-                <div class="col-lg-4 card-img-holder">
-                  <img src="assets/images/project/project-1.jpg" class="card-img" alt="image">
-                </div>
-                <div class="col-lg-8">
-                  <div class="card-body">
-                    <h5 class="card-title"><a href="project.html" class="theme-link">Project Heading</a></h5>
-                    <p class="card-text">Project intro lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum
-                      sociis natoque penatibus et magnis dis parturient montes.</p>
-                    <p class="card-text"><small class="text-muted">Client: Google</small></p>
-                  </div>
-                </div>
-              </div>
-              <div class="link-mask">
-                <a class="link-mask-link" href="project.html"></a>
-                <div class="link-mask-text">
-                  <a class="btn btn-secondary" href="project.html">
-                    <i class="fas fa-eye mr-2"></i>View Case Study
-                  </a>
-                </div>
-              </div><!--//link-mask-->
-            </div><!--//card-->
-          </div><!--//col-->
-          <div class="col-md-6 mb-5">
-            <div class="card project-card">
-              <div class="row no-gutters">
-                <div class="col-lg-4 card-img-holder">
-                  <img src="assets/images/project/project-2.jpg" class="card-img" alt="image">
-                </div>
-                <div class="col-lg-8">
-                  <div class="card-body">
-                    <h5 class="card-title"><a href="project.html" class="theme-link">Project Heading</a></h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque
-                      penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-                    <p class="card-text"><small class="text-muted">Client: Dropbox</small></p>
-                  </div>
-                </div>
-              </div>
-              <div class="link-mask">
-                <a class="link-mask-link" href="project.html"></a>
-                <div class="link-mask-text">
-                  <a class="btn btn-secondary" href="project.html">
-                    <i class="fas fa-eye mr-2"></i>View Case Study
-                  </a>
-                </div>
-              </div><!--//link-mask-->
-            </div><!--//card-->
-          </div><!--//col-->
-          <div class="col-md-6 mb-5">
-            <div class="card project-card">
-              <div class="row no-gutters">
-                <div class="col-lg-4 card-img-holder">
-                  <img src="assets/images/project/project-3.jpg" class="card-img" alt="image">
-                </div>
-                <div class="col-lg-8">
-                  <div class="card-body">
-                    <h5 class="card-title"><a href="project.html" class="theme-link">Project Heading</a></h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque
-                      penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-                    <p class="card-text"><small class="text-muted">Client: Google</small></p>
-                  </div>
-                </div>
-              </div>
-              <div class="link-mask">
-                <a class="link-mask-link" href="project.html"></a>
-                <div class="link-mask-text">
-                  <a class="btn btn-secondary" href="project.html">
-                    <i class="fas fa-eye mr-2"></i>View Case Study
-                  </a>
-                </div>
-              </div><!--//link-mask-->
-            </div><!--//card-->
-          </div><!--//col-->
-          <div class="col-md-6 mb-5">
-            <div class="card project-card">
-              <div class="row no-gutters">
-                <div class="col-lg-4 card-img-holder">
-                  <img src="assets/images/project/project-4.jpg" class="card-img" alt="image">
-                </div>
-                <div class="col-lg-8">
-                  <div class="card-body">
-                    <h5 class="card-title"><a href="project.html" class="theme-link">Project Heading</a></h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque
-                      penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-                    <p class="card-text"><small class="text-muted">Client: Uber</small></p>
-                  </div>
-                </div>
-              </div>
-              <div class="link-mask">
-                <a class="link-mask-link" href="project.html"></a>
-                <div class="link-mask-text">
-                  <a class="btn btn-secondary" href="project.html">
-                    <i class="fas fa-eye mr-2"></i>View Case Study
-                  </a>
-                </div>
-              </div><!--//link-mask-->
-            </div><!--//card-->
-          </div><!--//col-->
-        </div><!--//row-->
-        <div class="text-center py-3"><a href="portfolio.html" class="btn btn-primary"><i
-              class="fas fa-arrow-alt-circle-right mr-2"></i>View Portfolio</a></div>
-
-      </div><!--//container-->
-    </section><!--//featured-section-->
-
-    <div class="container">
-      <hr>
-    </div>
-
-    <section class="latest-blog-section p-3 p-lg-5">
-      <div class="container">
-        <h2 class="section-title font-weight-bold mb-5">Latest Blog Posts</h2>
-        <div class="row">
-          <div class="col-md-4 mb-5">
-            <div class="card blog-post-card">
-              <img class="card-img-top" src="assets/images/blog/blog-post-thumb-card-1.jpg" alt="image">
-              <div class="card-body">
-                <h5 class="card-title"><a class="theme-link" href="blog-post.html">Top 3 JavaScript Frameworks</a></h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-                  eget
-                  dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient...</p>
-                <p class="mb-0"><a class="more-link" href="blog-post.html">Read more &rarr;</a></p>
-
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Published 2 days ago</small>
-              </div>
-            </div><!--//card-->
-          </div><!--//col-->
-          <div class="col-md-4 mb-5">
-            <div class="card blog-post-card">
-              <img class="card-img-top" src="assets/images/blog/blog-post-thumb-card-2.jpg" alt="image">
-              <div class="card-body">
-                <h5 class="card-title"><a class="theme-link" href="blog-post.html">About Remote Working</a></h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-                  eget
-                  dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient...</p>
-                <p class="mb-0"><a class="more-link" href="blog-post.html">Read more &rarr;</a></p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Published a week ago</small>
-
-              </div>
-            </div><!--//card-->
-          </div><!--//col-->
-          <div class="col-md-4 mb-5">
-            <div class="card blog-post-card">
-              <img class="card-img-top" src="assets/images/blog/blog-post-thumb-card-3.jpg" alt="image">
-              <div class="card-body">
-                <h5 class="card-title"><a class="theme-link" href="blog-post.html">A Guide to Becoming a Full-Stack
-                    Developer</a></h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-                  eget
-                  dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient...</p>
-                <p class="mb-0"><a class="more-link" href="blog-post.html">Read more &rarr;</a></p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Published 3 weeks ago</small>
-              </div>
-            </div><!--//card-->
-          </div><!--//col-->
-        </div><!--//row-->
-        <div class="text-center py-3"><a href="blog-home.html" class="btn btn-primary"><i
-              class="fas fa-arrow-alt-circle-right mr-2"></i>View Blog</a></div>
-      </div><!--//container-->
-
-    </section><!--//latest-blog-section-->
-
-    <footer class="footer text-center py-4">
-      <small class="copyright">Template Copyright &copy; <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd
-          Wave Media</a></small>
-    </footer>
-
-  </div><!--//main-wrapper-->
-
-  <!-- *****CONFIGURE STYLE (REMOVE ON YOUR PRODUCTION SITE)****** -->
-  <div id="config-panel" class="config-panel d-none d-lg-block">
-    <div class="panel-inner">
-      <a id="config-trigger" class="config-trigger config-panel-hide text-center" href="#"><i class="fas fa-cog mx-auto"
-          data-fa-transform="down-6"></i></a>
-      <h5 class="panel-title">Choose Colour</h5>
-      <ul id="color-options" class="list-inline mb-0">
-        <li class="theme-1 active list-inline-item"><a data-style="assets/css/theme-1.css" href="#"></a></li>
-        <li class="theme-2  list-inline-item"><a data-style="assets/css/theme-2.css" href="#"></a></li>
-        <li class="theme-3  list-inline-item"><a data-style="assets/css/theme-3.css" href="#"></a></li>
-        <li class="theme-4  list-inline-item"><a data-style="assets/css/theme-4.css" href="#"></a></li>
-        <li class="theme-5  list-inline-item"><a data-style="assets/css/theme-5.css" href="#"></a></li>
-        <li class="theme-6  list-inline-item"><a data-style="assets/css/theme-6.css" href="#"></a></li>
-        <li class="theme-7  list-inline-item"><a data-style="assets/css/theme-7.css" href="#"></a></li>
-        <li class="theme-8  list-inline-item"><a data-style="assets/css/theme-8.css" href="#"></a></li>
-        <li class="theme-9  list-inline-item"><a data-style="assets/css/theme-9.css" href="#"></a></li>
-        <li class="theme-10  list-inline-item"><a data-style="assets/css/theme-10.css" href="#"></a></li>
-      </ul>
-      <a id="config-close" class="close" href="#"><i class="fa fa-times-circle"></i></a>
-    </div><!--//panel-inner-->
-  </div><!--//configure-panel-->
-
-  <!-- Javascript -->
-  <script src="assets/plugins/jquery-3.4.1.min.js"></script>
-  <script src="assets/plugins/popper.min.js"></script>
-  <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-
-  <script src="assets/plugins/tiny-slider/min/tiny-slider.js"></script>
-  <script src="assets/js/testimonials.js"></script>
-
-
-  <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
-  <script src="assets/js/demo/style-switcher.js"></script>
-
-  <!-- Dark Mode -->
-  <script src="assets/plugins/js-cookie.min.js"></script>
-  <script src="assets/js/dark-mode.js"></script>
+    <script>
+        w3.includeHTML();
+    </script>
 
 </body>
 

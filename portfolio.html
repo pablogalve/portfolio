@@ -16,16 +16,13 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 
     <!-- FontAwesome JS -->
-    <script defer src="../assets/fontawesome/js/all.js"></script>
+    <script defer src="assets/fontawesome/js/all.js"></script>
 
     <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="../assets/css/theme-1.css">
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
 
     <!-- Script to include navbar and footer -->
     <script src="https://www.w3schools.com/lib/w3.js"></script>
-
-    <!-- Dates Style CSS -->
-    <link id="dates_style" rel="stylesheet" href="assets/css/dates_style.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108280184-2"></script>
@@ -38,53 +35,11 @@
     </script>
 </head>
 
-<!-- Style for labels -->
-<style>
-    .label {
-        color: white;
-        padding: 4px;
-        font-family: Arial;
-        border-radius: 5px;
-    }
-
-    .primary {
-        background-color: blue;
-    }
-
-    /* Dark Blue */
-    .success {
-        background-color: #4CAF50;
-    }
-
-    /* Green */
-    .info {
-        background-color: #2196F3;
-    }
-
-    /* Blue */
-    .warning {
-        background-color: #ff9800;
-    }
-
-    /* Orange */
-    .danger {
-        background-color: #f44336;
-    }
-
-    /* Red */
-    .other {
-        background-color: #e7e7e7;
-        color: black;
-    }
-
-    /* Gray */
-</style>
-
 <body>
     <!-- Left Navbar -->
     <header class="header text-center">
         <div class="force-overflow">
-            <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Pablo Galve Millán</a></h1>
+            <h1 class="blog-name pt-lg-4 mb-0"><a href="index.php">Pablo Galve Millán</a></h1>
 
             <nav class="navbar navbar-expand-lg navbar-dark">
 
@@ -113,17 +68,9 @@
                     <!--//profile-section-->
 
                     <ul class="navbar-nav flex-column text-left">
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">
-                                <i class="fas fa-user fa-fw mr-2"></i>About Me</a>
-                        </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="portfolio.html">
                                 <i class="fas fa-laptop-code fa-fw mr-2"></i>Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="resume.html">
-                                <i class="fas fa-file-alt fa-fw mr-2"></i>Resume</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">
@@ -160,16 +107,15 @@
             <div class="container text-center single-col-max-width">
                 <h2 class="heading">Portfolio</h2>
                 <div class="intro">
-                    <p>Welcome to my online portfolio. Take a look around my last projects!</p>
+                    <p>Welcome to my online portfolio. Take a look around my open source projects!</p>
 
                 </div>
-                <a class="btn btn-primary" href="contact.html" target="_blank"><i
-                        class="fas fa-paper-plane mr-2"></i>Hire Me</a>
-
-
+                <a class="btn btn-primary" href="contact.html" target="_blank">
+                    <i class="fas fa-paper-plane mr-2"></i>Hire Me</a>
             </div>
             <!--//container-->
         </section>
+
         <section class="projects-list px-3 py-5 p-md-5">
             <div class="container">
                 <div class="text-center">
@@ -616,10 +562,10 @@
     <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 
     <!--Page Specific JS -->
-    <script type="text/javascript" src="assets/plugins/imagesloaded.pkgd.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-validation/jquery.validate.min.js"></script>
 
-    <script type="text/javascript" src="assets/js/isotope-custom.js"></script>
+    <!-- Custom JS -->
+    <script type="text/javascript" src="assets/js/form.js"></script>
 
     <!-- Dark Mode -->
     <script src="assets/plugins/js-cookie.min.js"></script>

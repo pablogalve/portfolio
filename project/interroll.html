@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>The Mandalorian: Ashes of the Empire</title>
+    <title>HMI webapp</title>
 
 	<!-- Meta -->
 	<meta charset="utf-8">
@@ -87,9 +87,10 @@
 	<div class="main-wrapper">
 		<section class="cta-section theme-bg-light py-5">
 			<div class="container single-col-max-width">
-				<h2 class="heading text-center">The Mandalorian: Ashes of the Empire</h2>
+                <h2 class="heading text-center">HMI webapp</h2>
 				<div class="project-intro text-center">
-					<p class="mb-0 lead">3D game built from scratch in 4 months using our own custom C++ game engine.</p>
+					<p class="mb-0 lead">HMI webapp developed for B2B customers in the logistics sector (Only sections not protected by
+						NDA).</p>
 				</div>
 				
 			</div>
@@ -98,31 +99,18 @@
 		<section class="project px-3 py-5 p-md-5">
 			<div class="container">
 				<div>
-					<img class="img-fluid rounded" src="../assets/images/TheMandalorian/intro_video_reduced_fps.webp"
-						alt="The Mandalorian: Ashes of the Empire" width="100%"> 
+					<img class="img-fluid rounded" src="../assets/images/Interroll/interroll_sorters_2.jpg" alt="Interroll" width="100%">
 				</div>
 				<div class="project-meta media flex-column flex-md-row p-4 theme-bg-light">
 					<img class="project-thumb mb-3 mb-md-0 mr-md-5 rounded d-none d-md-inline-block"
 						src="../assets/images/project/project-3.jpg" alt="">
 					<div class="media-body">
 						<div class="client-info">
-							<h3 class="client-name font-weight-bold mb-4">My Contribution</h3>
-							<ul class="client-meta list-unstyled">
-								<li class="mb-2"><i class="fas fa-industry fa-fw mr-2"></i><strong>Industry:</strong>
-									Gaming</li>
-								<li class="mb-2"><i class="fas fa-users fa-fw mr-2"></i><strong>Team size:</strong> 30 developers</li>
-								<li class="mb-2"><strong><i class="fas fa-link fa-fw mr-2"></i>Game Website:</strong> <a target="_blank"
-										class="theme-link" href="https://citm-vgdd-2018-2022.github.io/TM-Ashes_of_the_Empire">https://citm-vgdd-2018-2022.github.io/TM-Ashes_of_the_Empire</a></li>
-							</ul>
-							<div class="client-bio mb-4">"The Mandalorian: Ashes of the Empire" is a 3D game built from scratch in 4 months using
-								our own custom C++ game engine.
-								<br>This project was done for the subject "Project 3" at Polytechnic University of Catalonia (CITM-UPC). We also collaborated with Smilegate Barcelona. 
-							</div>
+                            <h3 class="client-name font-weight-bold mb-4">My Contribution</h3>
 							<h4 class="subheading mb-3">I worked on:</h4>
 							<ul class="mb-0">
-								<li class="mb-2">Game Engine: Particle System in C++.</li>
-								<li class="mb-2">Game Development in C#.</li>
-								<li class="mb-2">Project Website using html/css.</li>
+                                <li class="mb-2">Backend: Python, SQL, PostgreSQL (timescaledb), Redis</li>
+                                <li class="mb-2">Frontend: React, javascript (typescript)</li>
 							</ul>
 						</div>
 					</div>
@@ -130,15 +118,23 @@
 				</div>
 				<div class="project-sections py-5">
 					<div class="project-section mb-5">
-						<h3 class="project-section-title mb-3">Particle System</h3>
-						<p>I worked on the development of the particle system in the game engine using C++.</p>
+                        <h3 class="project-section-title mb-3">Statistics module</h3>
+						<p>I developed the new frontend and optimized the backend, which resulted in a reduced load time of statistics module
+							by ~93%, utilizing various optimization techniques for data aggregation in the database and data processing in
+							Python, which enabled the team to assist customers faster.</p>
+                        <ul class="mb-0">
+							<li class="mb-2">It can handle databases with tables consisting of millions of rows while maintaining low response
+								times.</li>
+							<li class="mb-2">It was praised by my managers and by the technical support team, since it allows them to assist
+								customers much faster than with the previous system.</li>
+                        </ul>
 						<div class="row mt-5">
 							<div class="col-12 col-lg-6 mb-5">
-								<img class="img-fluid rounded" src="../assets/images/TheMandalorian/particles_1_resized.webp"
+								<img class="img-fluid rounded" src="../assets/images/Interroll/statistics_maindrive_3.png"
 									alt="image">
 							</div>
 							<div class="col-12 col-lg-6 mb-5">
-								<img class="img-fluid rounded" src="../assets/images/TheMandalorian/particles_2_resized.webp"
+								<img class="img-fluid rounded" src="../assets/images/Interroll/throughput_2.png"
 									alt="image">
 							</div>
 						</div>
@@ -146,62 +142,71 @@
 					<!--//project-section-->
 
 					<div class="project-section mb-5">
-						<h3 class="project-section-title">HUB & NPCs</h3>							
+						<h3 class="project-section-title">API - FastAPI (TODO: Add picture of localhost:8000/docs)</h3>
 						<div class="row mt-5">
 							<div class="col-12 col-lg-6 mb-5">
-								<img src="../assets/images/TheMandalorian/final_npc_spawn_resized.webp" width="100%"> 
+                                <img src="../assets/images/Interroll/statistics_maindrive.JPG" width="100%" alt="interroll">
 							</div>
 							<div class="col-12 col-lg-6 mb-5">
-								<p>I developed systems for the HUB using C# such as NPCs spawn system in random spawn points.</p>
-						<p>On each game, the NPCs will spawn in different positions with correct animations and everything set up.</p>  
-							</div>
-						</div>
-
-					</div>
-					<!--//project-section-->
-
-					<div class="project-section mb-5">
-						<h3 class="project-section-title">Skill Trees</h3>
-						<div class="row mt-5">							
-							<div class="col-12 col-lg-6 mb-5">
-								<p>I worked on the skill tree system to allow the players to but power-ups that increase their skills such as health, damage, speed, etc.</p>
-							</div>
-							<div class="col-12 col-lg-6 mb-5">
-								<img src="../assets/images/TheMandalorian/final_skill_tree_resized.webp" width="100%"> 
+								<ul class="mb-0">
+									<li class="mb-2">I created new API endpoints to handle business logic, ensuring a >80% coverage by unit tests to
+										avoid regressions.
+									</li>
+									<li class="mb-2">Used industry standards such as pydantic and FastAPI.</li>
+								</ul>
 							</div>
 						</div>
 					</div>
 					<!--//project-section-->
 
 					<div class="project-section mb-5">
-						<h3 class="project-section-title mb-3">Vehicles & Turrets</h3>
-
-						<p>I coded the movement and rotation of all the vehicles and turrets in the game.</p>
+						<h3 class="project-section-title mb-3">Other sections that I worked on</h3>
+						<ul class="mb-0">
+							<li class="mb-2">Created a dashboard that queries data in (almost) real-time from the database so the operators
+								can detect anomalies in the machines faster.
+							</li>
+							<li class="mb-2">Fixed multiple bugs and added features on the overview layout that represents the sorter view
+								from the top.
+							</li>
+						</ul>
 						<div class="row mt-5">
 							<div class="col-12 col-lg-6 mb-5">
-								<img class="img-fluid rounded" src="../assets/images/TheMandalorian/vehicles_1_resized.webp"
-									alt="image">
+								<img class="img-fluid rounded" src="../assets/images/Interroll/dashboard.png" alt="image"
+									style="height: 420px;">
 							</div>
 							<div class="col-12 col-lg-6 mb-5">
-								<img class="img-fluid rounded" src="../assets/images/TheMandalorian/vehicles_2_resized.webp"
-									alt="image">
+								<img class="img-fluid rounded" src="../assets/images/Interroll/overview_1.JPG" alt="image"
+									style="height: 420px;">
 							</div>
 						</div>
-						
-
 					</div>
 					<!--//project-section-->
 
 					<div class="project-section mb-5">
-						<h3 class="project-section-title mb-3">Website</h3>
+						<h3 class="project-section-title mb-3">Initiatives I led to improve CICD processes (Long term thinking)</h3>
+						<ul class="mb-0">
+							<li class="mb-2">Proposed and implemented improved coding standards and managed a quality gate which resulted in
+								improving new code and increased the code coverage of the backend from 5% to over 50% in a period of 1,5 years.
+							</li>
+							<li class="mb-2">Detected that some microservices were tightly coupled so I proposed an architectural change that
+								simplified the codebase and adapted it to my team's needs, which also reduced docker image sizes by -72.5%
+								(measured in production for the backend)</li>
+							<li class="mb-2">Reduced build time from 4min15 to 1min42 (-60%) by optimizing Dockerfiles and introducing multi
+								stage builds.</li>
+						</ul>
+						<div class="row mt-5">
+							<div class="col-12 col-lg-6 mb-5">
+								<img class="img-fluid rounded" src="../assets/images/Interroll/cicd_github_actions.png" alt="image"
+									style="height: 350px;">
+							</div>
+							<div class="col-12 col-lg-6 mb-5">
+								<img class="img-fluid rounded" src="../assets/images/Interroll/sonarcloud_passed.png" alt="image"
+									style="height: 350px;">
+							</div>
+							</div>
 					</div>
 					<!--//project-section-->
-					<p>I developed the entire website using html, css and javascript. I collected data and received feedback to improve all the functionalities and aesthetics of the web.</p>
-					<div class="row mt-5">
-						<div>
-							<img class="img-fluid rounded" src="../assets/images/TheMandalorian/web.webp" alt="website" widht="100%">
-						</div>
-					</div>
+
 				</div>
 				<div class="my-8">					
 					<a class="btn btn-primary" href="https://citm-vgdd-2018-2022.github.io/TM-Ashes_of_the_Empire/" target="_blank"><i
